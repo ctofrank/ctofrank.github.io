@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TechTips.com | Practical IT Guidance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">TechTips<span>.com</span></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Best Practices</a>
+      <a href="#">Compliance</a>
+      <a href="#">Zero Trust</a>
+      <a href="#">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Today’s Security Tip</h1>
+    <p class="subtitle">Actionable guidance trusted by IT professionals worldwide</p>
+
+    <div class="tip-card">
+      <div id="tipText">Loading today's tip...</div>
+      <button onclick="showRandomTip()">Show me another tip</button>
+    </div>
+
+    <div class="score">
+      <div class="score-label">AI Security Score</div>
+      <div class="score-bar">
+        <div id="scoreFill"></div>
+      </div>
+      <div id="scoreValue"></div>
+    </div>
+  </div>
+</section>
+
+<section class="stats container">
+  <div class="stat">
+    <div class="stat-number">14,000+</div>
+    <div class="stat-label">IT Leaders</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number">NIST</div>
+    <div class="stat-label">Aligned Framework</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number">SOC 2</div>
+    <div class="stat-label">Ready Methodology</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number">AI</div>
+    <div class="stat-label">Powered Insights</div>
+  </div>
+</section>
+
+<section class="cta container">
+  <h2>Download Our Security Checklist</h2>
+  <button onclick="showModal()">Get the Checklist</button>
+</section>
+
+<footer>
+  <div class="container footer">
+    <div>© 2026 TechTips.com | Privacy | Terms | Security Whitepaper</div>
+    <div class="subtle">A project by a managed services professional</div>
+  </div>
+</footer>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <p>Checklist coming soon.</p>
+    <button onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
