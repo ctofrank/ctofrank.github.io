@@ -1,1 +1,0 @@
-# faketechtips.github.io
